@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AQsymbol-lib")(type "Legacy")(uri "/Users/bernerus/Library/Mobile Documents/com~apple~CloudDocs/Ham/AQsymbol-lib.lib")(options "")(descr ""))
+  (lib (name "StationCore-rescue")(type "Legacy")(uri "${KIPRJMOD}/StationCore-rescue.lib")(options "")(descr ""))
+)

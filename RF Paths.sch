@@ -1,0 +1,997 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7450 7500 0    79   ~ 0
+RF Paths
+$Comp
+L Relay:HF3-56 K9
+U 1 1 6063A956
+P 7650 5150
+F 0 "K9" H 7220 5196 50  0000 R CNN
+F 1 "HF3-56" H 7220 5105 50  0000 R CNN
+F 2 "Relay_SMD:Relay_SPDT_AXICOM_HF3Series_50ohms_Pitch1.27mm" H 8780 5120 50  0001 C CNN
+F 3 "http://hiqsdr.com/images/3/3e/Axicom-HF3.pdf" H 7650 5150 50  0001 C CNN
+	1    7650 5150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 60669D40
+P 1200 3850
+F 0 "J?" H 1128 4088 50  0000 C CNN
+F 1 "Ext Rx 144 MHz" H 1600 3850 50  0000 C CNN
+F 2 "" H 1200 3850 50  0001 C CNN
+F 3 " ~" H 1200 3850 50  0001 C CNN
+	1    1200 3850
+	-1   0    0    -1  
+$EndComp
+Wire Notes Line
+	4350 3550 5600 3550
+Wire Notes Line
+	5600 3550 5600 4200
+Wire Notes Line
+	5600 4200 4350 4200
+Wire Notes Line
+	4350 4200 4350 3550
+Wire Notes Line
+	6250 3550 6250 4200
+Wire Notes Line
+	6250 4200 7500 4200
+Wire Notes Line
+	7500 4200 7500 3550
+Wire Notes Line
+	7500 3550 6250 3550
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 6067CB8A
+P 5600 3700
+F 0 "J?" H 5500 3850 50  0000 C CNN
+F 1 "240 MHz out" H 5950 3700 50  0000 C CNN
+F 2 "" H 5600 3700 50  0001 C CNN
+F 3 " ~" H 5600 3700 50  0001 C CNN
+	1    5600 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 6067D09D
+P 5600 4050
+F 0 "J?" H 5500 3900 50  0000 C CNN
+F 1 "192 MHz out" H 5950 4050 50  0000 C CNN
+F 2 "" H 5600 4050 50  0001 C CNN
+F 3 " ~" H 5600 4050 50  0001 C CNN
+	1    5600 4050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 6067DD1B
+P 6250 3700
+F 0 "J?" H 6150 3850 50  0000 L CNN
+F 1 "240 MHz in" H 6350 3700 50  0000 L CNN
+F 2 "" H 6250 3700 50  0001 C CNN
+F 3 " ~" H 6250 3700 50  0001 C CNN
+	1    6250 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 6067E1D3
+P 6250 4050
+F 0 "J?" H 6100 3950 50  0000 L CNN
+F 1 "192 MHz in" H 6350 4050 50  0000 L CNN
+F 2 "" H 6250 4050 50  0001 C CNN
+F 3 " ~" H 6250 4050 50  0001 C CNN
+	1    6250 4050
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	8000 3550 8000 4250
+Wire Notes Line
+	8000 4250 9150 4250
+Wire Notes Line
+	9150 4250 9150 3550
+Wire Notes Line
+	9150 3550 8000 3550
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 6068617A
+P 7500 3850
+F 0 "J?" H 7450 4000 50  0000 C CNN
+F 1 "432 MHz out" H 7850 3850 50  0000 C CNN
+F 2 "" H 7500 3850 50  0001 C CNN
+F 3 " ~" H 7500 3850 50  0001 C CNN
+	1    7500 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 6068669A
+P 8000 3850
+F 0 "J?" H 7900 4000 50  0000 L CNN
+F 1 "432 MHz in" H 8100 3850 50  0000 L CNN
+F 2 "" H 8000 3850 50  0001 C CNN
+F 3 " ~" H 8000 3850 50  0001 C CNN
+	1    8000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 60688734
+P 9150 3900
+F 0 "J?" H 9100 4050 50  0000 C CNN
+F 1 "432 MHz out" H 9500 3900 50  0000 C CNN
+F 2 "" H 9150 3900 50  0001 C CNN
+F 3 " ~" H 9150 3900 50  0001 C CNN
+	1    9150 3900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3700 6050 3700
+Wire Wire Line
+	5800 4050 6050 4050
+Wire Wire Line
+	7700 3850 7800 3850
+Wire Notes Line
+	4350 4550 4350 5100
+Wire Notes Line
+	4350 5100 5600 5100
+Wire Notes Line
+	5600 5100 5600 4550
+Wire Notes Line
+	5600 4550 4350 4550
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 606969BE
+P 4350 4950
+F 0 "J?" H 4450 4925 50  0000 L CNN
+F 1 "Conn_Coaxial" H 4450 4834 50  0000 L CNN
+F 2 "" H 4350 4950 50  0001 C CNN
+F 3 " ~" H 4350 4950 50  0001 C CNN
+	1    4350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 606971D5
+P 5600 4800
+F 0 "J?" H 5528 5038 50  0000 C CNN
+F 1 "Conn_Coaxial" H 5528 4947 50  0000 C CNN
+F 2 "" H 5600 4800 50  0001 C CNN
+F 3 " ~" H 5600 4800 50  0001 C CNN
+	1    5600 4800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 4950 4150 4950
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 6069C90C
+P 10200 3900
+F 0 "J?" H 10150 4050 50  0000 L CNN
+F 1 "432 MHZ TX QRP Out" H 10300 3900 50  0000 L CNN
+F 2 "" H 10200 3900 50  0001 C CNN
+F 3 " ~" H 10200 3900 50  0001 C CNN
+	1    10200 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 3900 10000 3900
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 606A3B5A
+P 10200 4800
+F 0 "J?" H 10150 4950 50  0000 L CNN
+F 1 "432 MHz QRO in" H 10350 4800 50  0000 L CNN
+F 2 "" H 10200 4800 50  0001 C CNN
+F 3 " ~" H 10200 4800 50  0001 C CNN
+	1    10200 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4800 7350 4800
+Wire Wire Line
+	7350 4800 7350 4850
+Wire Wire Line
+	7550 4850 7550 4800
+Wire Wire Line
+	7550 4800 10000 4800
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 606B7184
+P 10200 5650
+F 0 "J?" H 10150 5800 50  0000 L CNN
+F 1 "432 MHz Ant" H 10350 5650 50  0000 L CNN
+F 2 "" H 10200 5650 50  0001 C CNN
+F 3 " ~" H 10200 5650 50  0001 C CNN
+	1    10200 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 5450 7450 5650
+Wire Wire Line
+	7450 5650 10000 5650
+Wire Wire Line
+	7350 5450 7350 5850
+Wire Wire Line
+	7350 5850 10200 5850
+$Comp
+L power:Earth #PWR?
+U 1 1 606B96A1
+P 10200 5850
+F 0 "#PWR?" H 10200 5600 50  0001 C CNN
+F 1 "Earth" H 10200 5700 50  0001 C CNN
+F 2 "" H 10200 5850 50  0001 C CNN
+F 3 "~" H 10200 5850 50  0001 C CNN
+	1    10200 5850
+	1    0    0    -1  
+$EndComp
+Connection ~ 10200 5850
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 606962A7
+P 4350 4650
+F 0 "J?" H 4450 4625 50  0000 L CNN
+F 1 "Conn_Coaxial" H 4450 4534 50  0000 L CNN
+F 2 "" H 4350 4650 50  0001 C CNN
+F 3 " ~" H 4350 4650 50  0001 C CNN
+	1    4350 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 6067B915
+P 4350 4050
+F 0 "J?" H 4200 3950 50  0000 L CNN
+F 1 "96 MHz in" H 4450 4050 50  0000 L CNN
+F 2 "" H 4350 4050 50  0001 C CNN
+F 3 " ~" H 4350 4050 50  0001 C CNN
+	1    4350 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 6067A752
+P 4350 3700
+F 0 "J?" H 4200 3800 50  0000 L CNN
+F 1 "144 MHz in" H 4450 3700 50  0000 L CNN
+F 2 "" H 4350 3700 50  0001 C CNN
+F 3 " ~" H 4350 3700 50  0001 C CNN
+	1    4350 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 3700 4150 3700
+Wire Wire Line
+	4150 4050 4050 4050
+Wire Wire Line
+	4050 4050 4050 4650
+Wire Wire Line
+	4050 4650 4150 4650
+Wire Wire Line
+	1400 3850 2650 3850
+$Comp
+L Connector_Generic:Conn_01x06 J?
+U 1 1 60709A31
+P 5100 5950
+F 0 "J?" V 5064 5562 50  0000 R CNN
+F 1 "Standoff connector" V 4973 5562 50  0000 R CNN
+F 2 "" H 5100 5950 50  0001 C CNN
+F 3 "~" H 5100 5950 50  0001 C CNN
+	1    5100 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:DB25_Female J?
+U 1 1 6070C878
+P 3450 7400
+F 0 "J?" V 3675 7400 50  0000 C CNN
+F 1 "Internal backplane connector" V 3766 7400 50  0000 C CNN
+F 2 "" H 3450 7400 50  0001 C CNN
+F 3 " ~" H 3450 7400 50  0001 C CNN
+	1    3450 7400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 7100 4550 7100
+Wire Wire Line
+	5300 7100 5300 6150
+Connection ~ 4550 7100
+Wire Wire Line
+	4550 7100 4650 7100
+Connection ~ 4650 7100
+Wire Wire Line
+	4650 7100 4850 7100
+Wire Wire Line
+	4050 7100 4150 7100
+Connection ~ 4150 7100
+Wire Wire Line
+	4150 7100 4250 7100
+Wire Wire Line
+	4150 7100 4150 6900
+Wire Wire Line
+	4150 6900 5400 6900
+Wire Wire Line
+	5400 6900 5400 6150
+NoConn ~ 4350 7100
+NoConn ~ 3850 7100
+NoConn ~ 2350 7100
+Text GLabel 5400 6700 2    79   Input ~ 0
+DC+
+Text GLabel 5300 7050 2    79   Input ~ 0
+GND
+$Comp
+L Connector:DB25_Female_MountingHoles J?
+U 1 1 60729C5B
+P 850 6000
+F 0 "J?" H 768 7492 50  0000 C CNN
+F 1 "144 PA control" H 768 7401 50  0000 C CNN
+F 2 "" H 850 6000 50  0001 C CNN
+F 3 " ~" H 850 6000 50  0001 C CNN
+	1    850  6000
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 3650 7100
+$Comp
+L Device:C_Feedthrough C?
+U 1 1 607444DB
+P 8250 4250
+F 0 "C?" V 8296 4418 50  0000 L CNN
+F 1 "C_Feedthrough" V 8205 4418 50  0000 L CNN
+F 2 "" V 8250 4250 50  0001 C CNN
+F 3 "~" V 8250 4250 50  0001 C CNN
+	1    8250 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3450 7100 3450 5500
+Wire Wire Line
+	6850 5500 6850 4550
+Wire Wire Line
+	6850 4550 8150 4550
+Wire Wire Line
+	8150 4550 8150 4450
+$Comp
+L AQsymbol-lib:Round-8 J?
+U 1 1 6076F940
+P 4100 6250
+F 0 "J?" H 4100 6731 50  0000 C CNN
+F 1 "Transceiver power & Control" H 4100 6640 50  0000 C CNN
+F 2 "" H 4100 6250 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 4100 6250 50  0001 C CNN
+	1    4100 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 7100 3250 6750
+Wire Wire Line
+	3250 6750 4500 6750
+Wire Wire Line
+	4500 6750 4500 6350
+Wire Wire Line
+	4500 6350 4400 6350
+Wire Wire Line
+	3050 7100 3050 6550
+Wire Wire Line
+	3800 6550 3800 6350
+Wire Wire Line
+	4100 6550 4650 6550
+Wire Wire Line
+	4650 6550 4650 7100
+Wire Notes Line
+	5550 7300 5550 7650
+Wire Notes Line
+	5550 7650 6000 7650
+Wire Notes Line
+	6000 7650 6000 7300
+Wire Notes Line
+	6000 7300 5550 7300
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 6077CFB7
+P 5550 7400
+F 0 "J?" H 5630 7346 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 5468 7526 50  0001 C CNN
+F 2 "" H 5550 7400 50  0001 C CNN
+F 3 "~" H 5550 7400 50  0001 C CNN
+	1    5550 7400
+	1    0    0    -1  
+$EndComp
+Text Notes 6550 7750 2    79   ~ 0
+External 12V Supply
+Wire Wire Line
+	4850 7100 4850 7500
+Wire Wire Line
+	4850 7500 5350 7500
+Connection ~ 4850 7100
+Wire Wire Line
+	4850 7100 5300 7100
+Wire Wire Line
+	5350 7400 4950 7400
+Wire Wire Line
+	4950 7400 4950 6250
+Wire Wire Line
+	4950 6250 4400 6250
+NoConn ~ 5100 6150
+Wire Wire Line
+	7850 4850 7850 4650
+Wire Wire Line
+	7850 4650 6450 4650
+Wire Wire Line
+	6450 4650 6450 5650
+Wire Wire Line
+	6450 5650 5400 5650
+Wire Wire Line
+	5400 5650 5400 6150
+Connection ~ 5400 6150
+Wire Wire Line
+	7850 6200 5200 6200
+Wire Wire Line
+	5200 6200 5200 6150
+Wire Wire Line
+	7850 5450 7850 6200
+Wire Wire Line
+	5000 6150 5000 5250
+Wire Wire Line
+	5000 5250 3950 5250
+Wire Wire Line
+	4900 6150 4900 5350
+Wire Wire Line
+	4900 5350 3900 5350
+Wire Wire Line
+	3900 5350 3900 3900
+Wire Wire Line
+	3900 3900 1850 3900
+Wire Wire Line
+	3950 7100 3950 6850
+Wire Wire Line
+	3950 6850 5000 6850
+Wire Wire Line
+	5000 6850 5000 6150
+Connection ~ 5000 6150
+Wire Wire Line
+	2650 7100 2650 6800
+Wire Wire Line
+	2650 6800 4900 6800
+Wire Wire Line
+	4900 6800 4900 6150
+Connection ~ 4900 6150
+Wire Wire Line
+	2450 7100 2450 6700
+Wire Wire Line
+	2450 6700 5200 6700
+Wire Wire Line
+	5200 6700 5200 6200
+Connection ~ 5200 6200
+Wire Wire Line
+	3150 7100 3150 6450
+Wire Wire Line
+	2500 6200 2500 5650
+Wire Wire Line
+	2500 5650 5400 5650
+Connection ~ 5400 5650
+Wire Wire Line
+	2850 7100 2850 5350
+Wire Wire Line
+	2850 5350 3800 5350
+NoConn ~ 1150 4800
+NoConn ~ 1150 6000
+NoConn ~ 1150 6200
+NoConn ~ 1150 6400
+NoConn ~ 1150 6600
+NoConn ~ 1150 6800
+NoConn ~ 1150 7000
+NoConn ~ 1150 7200
+NoConn ~ 1150 7100
+NoConn ~ 1150 6900
+NoConn ~ 1150 6700
+NoConn ~ 1150 6300
+NoConn ~ 1150 6100
+NoConn ~ 1150 5900
+NoConn ~ 1150 5700
+NoConn ~ 1150 5500
+NoConn ~ 1150 5300
+NoConn ~ 1150 5100
+NoConn ~ 1150 4900
+Wire Wire Line
+	2500 6500 2500 6200
+Connection ~ 2500 6200
+Wire Wire Line
+	2650 3850 2650 3750
+NoConn ~ 2250 3750
+Wire Wire Line
+	1850 3900 1850 3750
+Wire Wire Line
+	4150 1850 4150 3100
+Wire Wire Line
+	6050 1850 4150 1850
+Wire Wire Line
+	6900 2700 6750 2700
+Wire Wire Line
+	6900 3000 6900 2700
+Wire Wire Line
+	3800 3000 6900 3000
+Wire Wire Line
+	3800 5350 3800 3000
+NoConn ~ 6750 1900
+NoConn ~ 6150 1800
+NoConn ~ 6150 2000
+NoConn ~ 3050 2150
+NoConn ~ 3150 2750
+NoConn ~ 2950 2750
+NoConn ~ 2350 3150
+NoConn ~ 2150 3150
+Wire Wire Line
+	3950 2150 3450 2150
+Wire Wire Line
+	3950 5250 3950 2150
+Connection ~ 1850 3000
+Wire Wire Line
+	1850 2750 1850 3000
+Wire Wire Line
+	1850 3000 1850 3150
+$Comp
+L power:+12V #PWR?
+U 1 1 606FDEB2
+P 1850 2750
+F 0 "#PWR?" H 1850 2600 50  0001 C CNN
+F 1 "+12V" H 1865 2923 50  0000 C CNN
+F 2 "" H 1850 2750 50  0001 C CNN
+F 3 "" H 1850 2750 50  0001 C CNN
+	1    1850 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 700  3800 700 
+Connection ~ 3050 700 
+$Comp
+L power:+12V #PWR?
+U 1 1 606FCF0A
+P 3050 700
+F 0 "#PWR?" H 3050 550 50  0001 C CNN
+F 1 "+12V" H 3065 873 50  0000 C CNN
+F 2 "" H 3050 700 50  0001 C CNN
+F 3 "" H 3050 700 50  0001 C CNN
+	1    3050 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 700  3800 1250
+Wire Wire Line
+	2450 700  3050 700 
+Wire Wire Line
+	2450 1350 2450 700 
+Connection ~ 1750 1950
+Wire Wire Line
+	3200 2100 3200 1750
+Wire Wire Line
+	1750 2100 3200 2100
+Wire Wire Line
+	1750 1950 1750 2100
+Wire Wire Line
+	1750 1950 1200 1950
+Wire Wire Line
+	1750 1850 1750 1950
+Wire Wire Line
+	1850 1850 1750 1850
+Wire Wire Line
+	1400 1750 1850 1750
+Wire Wire Line
+	2750 3100 2750 3150
+Connection ~ 2750 3100
+Wire Wire Line
+	6050 2200 6150 2200
+Connection ~ 6050 2200
+Wire Wire Line
+	4150 3100 2750 3100
+Wire Wire Line
+	6050 2200 6050 1850
+Wire Wire Line
+	6750 2300 10000 2300
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 606E726E
+P 10200 2300
+F 0 "J?" H 10150 2500 50  0000 L CNN
+F 1 "144 MHz Rx In" H 10350 2300 50  0000 L CNN
+F 2 "" H 10200 2300 50  0001 C CNN
+F 3 " ~" H 10200 2300 50  0001 C CNN
+	1    10200 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ 6100 2400
+Wire Wire Line
+	5500 2400 6100 2400
+Connection ~ 5500 2200
+$Comp
+L Device:C_Small C?
+U 1 1 606E5181
+P 5500 2300
+F 0 "C?" H 5592 2346 50  0000 L CNN
+F 1 "C_Small" H 5592 2255 50  0000 L CNN
+F 2 "" H 5500 2300 50  0001 C CNN
+F 3 "~" H 5500 2300 50  0001 C CNN
+	1    5500 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2200 6050 2200
+Connection ~ 5350 2200
+Wire Wire Line
+	5500 2200 5350 2200
+Wire Wire Line
+	5350 2700 6150 2700
+Wire Wire Line
+	5350 2200 5350 2700
+Wire Wire Line
+	6100 2400 6150 2400
+Wire Wire Line
+	4050 1750 4050 3700
+$Comp
+L power:+12V #PWR?
+U 1 1 606C6CD3
+P 5350 2200
+F 0 "#PWR?" H 5350 2050 50  0001 C CNN
+F 1 "+12V" H 5365 2373 50  0000 C CNN
+F 2 "" H 5350 2200 50  0001 C CNN
+F 3 "" H 5350 2200 50  0001 C CNN
+	1    5350 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:INDUCTOR L?
+U 1 1 606C4A1B
+P 5750 2200
+F 0 "L?" H 5750 2415 50  0000 C CNN
+F 1 "INDUCTOR" H 5750 2324 50  0000 C CNN
+F 2 "" H 5750 2200 50  0001 C CNN
+F 3 "~" H 5750 2200 50  0001 C CNN
+	1    5750 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 606C1A1F
+P 6100 2400
+F 0 "#PWR?" H 6100 2150 50  0001 C CNN
+F 1 "Earth" H 6100 2250 50  0001 C CNN
+F 2 "" H 6100 2400 50  0001 C CNN
+F 3 "~" H 6100 2400 50  0001 C CNN
+	1    6100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Relay:G6S-2 K6
+U 1 1 606BAA89
+P 6450 2300
+F 0 "K6" V 7217 2300 50  0000 C CNN
+F 1 "Bias Tee Relay" V 7126 2300 50  0000 C CNN
+F 2 "" H 6450 2300 50  0001 L CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 6450 2300 50  0001 C CNN
+	1    6450 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 2850 2550 3150
+Connection ~ 2550 2850
+Wire Wire Line
+	3750 2850 3750 4950
+Wire Wire Line
+	2550 2850 3750 2850
+Wire Wire Line
+	4050 1750 3800 1750
+Wire Wire Line
+	2550 2750 2550 2850
+Wire Wire Line
+	2750 2750 2750 3100
+Wire Wire Line
+	2650 1850 2650 2150
+Wire Wire Line
+	2450 1850 2650 1850
+Wire Wire Line
+	3800 1550 10000 1550
+Wire Wire Line
+	2450 1650 3200 1650
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 6066AE64
+P 10200 1550
+F 0 "J?" H 10150 1750 50  0000 L CNN
+F 1 "144MHz TX QRP out" H 10350 1550 50  0000 L CNN
+F 2 "" H 10200 1550 50  0001 C CNN
+F 3 " ~" H 10200 1550 50  0001 C CNN
+	1    10200 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 60668992
+P 1200 1750
+F 0 "J?" H 1200 1900 50  0000 C CNN
+F 1 "TRX 144 MHz" H 1550 1750 50  0000 C CNN
+F 2 "" H 1200 1750 50  0001 C CNN
+F 3 " ~" H 1200 1750 50  0001 C CNN
+	1    1200 1750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Relay:G6S-2 K5
+U 1 1 6065F39A
+P 2250 3450
+F 0 "K5" H 2880 3496 50  0000 L CNN
+F 1 "G6S-2" H 2880 3405 50  0000 L CNN
+F 2 "" H 2250 3450 50  0001 L CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 2250 3450 50  0001 C CNN
+	1    2250 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Relay:G6S-2 K4
+U 1 1 6065340D
+P 3050 2450
+F 0 "K4" H 2420 2404 50  0000 R CNN
+F 1 "G6S-2" H 2420 2495 50  0000 R CNN
+F 2 "" H 3050 2450 50  0001 L CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 3050 2450 50  0001 C CNN
+	1    3050 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Relay:HF3-56 K7
+U 1 1 606375ED
+P 3500 1450
+F 0 "K7" V 2933 1450 50  0000 C CNN
+F 1 "TX 144 / 432" V 3024 1450 50  0000 C CNN
+F 2 "Relay_SMD:Relay_SPDT_AXICOM_HF3Series_50ohms_Pitch1.27mm" H 4630 1420 50  0001 C CNN
+F 3 "http://hiqsdr.com/images/3/3e/Axicom-HF3.pdf" H 3500 1450 50  0001 C CNN
+	1    3500 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Relay:HF3-56 K8
+U 1 1 606343F8
+P 2150 1550
+F 0 "K8" V 1583 1550 50  0000 C CNN
+F 1 "T/R Relay" V 1674 1550 50  0000 C CNN
+F 2 "Relay_SMD:Relay_SPDT_AXICOM_HF3Series_50ohms_Pitch1.27mm" H 3280 1520 50  0001 C CNN
+F 3 "http://hiqsdr.com/images/3/3e/Axicom-HF3.pdf" H 2150 1550 50  0001 C CNN
+	1    2150 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3450 3000 1850 3000
+Wire Wire Line
+	3450 2750 3450 3000
+$Comp
+L Relay:G6S-2 K?
+U 1 1 609487DE
+P 3350 4600
+F 0 "K?" V 2583 4600 50  0000 C CNN
+F 1 "G6S-2" V 2674 4600 50  0000 C CNN
+F 2 "" H 3350 4600 50  0001 L CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 3350 4600 50  0001 C CNN
+	1    3350 4600
+	0    -1   1    0   
+$EndComp
+$Comp
+L Relay:G6S-2 K3
+U 1 1 6094DDF5
+P 2550 4600
+F 0 "K3" V 1783 4600 50  0000 C CNN
+F 1 "G6S-2" V 1874 4600 50  0000 C CNN
+F 2 "" H 2550 4600 50  0001 L CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 2550 4600 50  0001 C CNN
+	1    2550 4600
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1150 6500 2500 6500
+NoConn ~ 1600 5500
+NoConn ~ 1600 5700
+NoConn ~ 1600 5900
+NoConn ~ 2200 5800
+NoConn ~ 2200 5750
+Wire Wire Line
+	2200 6200 2500 6200
+Wire Wire Line
+	1600 6450 1600 6200
+Wire Wire Line
+	3150 6450 1600 6450
+Wire Wire Line
+	1150 5000 1400 5000
+$Comp
+L Relay:RM84 K1
+U 1 1 60641A02
+P 1900 5800
+F 0 "K1" V 2667 5800 50  0000 C CNN
+F 1 "RM84" V 2576 5800 50  0000 C CNN
+F 2 "Relay_THT:Relay_DPDT_Finder_40.52" H 3250 5770 50  0001 C CNN
+F 3 "http://www.relpol.pl/en/content/download/13766/168095/file/e_RM84.pdf" H 1900 5800 50  0001 C CNN
+	1    1900 5800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1400 5000 1400 5300
+Wire Wire Line
+	1400 5300 1600 5300
+Wire Wire Line
+	1150 5400 1300 5400
+Wire Wire Line
+	1300 5400 1300 4700
+Wire Wire Line
+	1300 4700 2250 4700
+Wire Wire Line
+	3450 5500 6850 5500
+Wire Wire Line
+	2850 4600 2950 4600
+Wire Wire Line
+	2950 4600 2950 4200
+Wire Wire Line
+	2950 3650 3450 3650
+Wire Wire Line
+	3450 3650 3450 3000
+Connection ~ 3450 3000
+Wire Wire Line
+	3050 4900 2950 4900
+Wire Wire Line
+	2950 4900 2950 5250
+Wire Wire Line
+	2950 5250 2200 5250
+Wire Wire Line
+	2200 5250 2200 5000
+Wire Wire Line
+	2200 5000 1500 5000
+Wire Wire Line
+	1500 5000 1500 5200
+Wire Wire Line
+	1500 5200 1150 5200
+NoConn ~ 2250 5100
+NoConn ~ 2250 4850
+NoConn ~ 2250 4900
+NoConn ~ 2250 4500
+NoConn ~ 3050 5100
+NoConn ~ 3050 4700
+NoConn ~ 3050 4500
+NoConn ~ 3650 4600
+$Comp
+L power:Earth #PWR?
+U 1 1 609EA9DA
+P 3700 5100
+F 0 "#PWR?" H 3700 4850 50  0001 C CNN
+F 1 "Earth" H 3700 4950 50  0001 C CNN
+F 2 "" H 3700 5100 50  0001 C CNN
+F 3 "~" H 3700 5100 50  0001 C CNN
+	1    3700 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 5000 3700 5000
+Wire Wire Line
+	3700 5000 3700 5100
+Wire Wire Line
+	2950 4200 3050 4200
+Connection ~ 2950 4200
+Wire Wire Line
+	2950 4200 2950 3950
+Wire Wire Line
+	2950 3950 2200 3950
+Wire Wire Line
+	2200 3950 2200 4200
+Wire Wire Line
+	2200 4200 2250 4200
+Connection ~ 2950 3950
+Wire Wire Line
+	2950 3950 2950 3650
+Wire Wire Line
+	2950 7100 2950 5450
+Wire Wire Line
+	2950 5450 3850 5450
+Wire Wire Line
+	3850 5450 3850 4200
+Wire Wire Line
+	3850 4200 3650 4200
+Wire Wire Line
+	2750 7100 2750 5300
+Wire Wire Line
+	2750 5300 2900 5300
+Wire Wire Line
+	2900 5300 2900 4200
+Wire Wire Line
+	2900 4200 2850 4200
+Wire Wire Line
+	3550 7100 3550 6650
+Wire Wire Line
+	3550 6650 1450 6650
+Wire Wire Line
+	1450 6650 1450 1350
+Wire Wire Line
+	1450 1350 1850 1350
+Wire Wire Line
+	3750 7100 3750 6550
+Wire Wire Line
+	1550 6550 1550 900 
+Wire Wire Line
+	1550 900  3000 900 
+Wire Wire Line
+	3000 900  3000 1250
+Wire Wire Line
+	3000 1250 3200 1250
+Wire Wire Line
+	1550 6550 3050 6550
+Connection ~ 3750 6550
+Wire Wire Line
+	3750 6550 3800 6550
+Connection ~ 3050 6550
+Wire Wire Line
+	3050 6550 3750 6550
+$Comp
+L Connector:AudioJack2 J?
+U 1 1 60A2922F
+P 1500 7350
+F 0 "J?" H 1532 7675 50  0000 C CNN
+F 1 "RF Sense" H 1532 7584 50  0000 C CNN
+F 2 "" H 1500 7350 50  0001 C CNN
+F 3 "~" H 1500 7350 50  0001 C CNN
+	1    1500 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 7350 2050 7350
+Wire Wire Line
+	2050 7350 2050 7000
+Wire Wire Line
+	2050 7000 3350 7000
+Wire Wire Line
+	3350 7000 3350 7100
+$Comp
+L power:Earth #PWR?
+U 1 1 60A38E3E
+P 1800 7500
+F 0 "#PWR?" H 1800 7250 50  0001 C CNN
+F 1 "Earth" H 1800 7350 50  0001 C CNN
+F 2 "" H 1800 7500 50  0001 C CNN
+F 3 "~" H 1800 7500 50  0001 C CNN
+	1    1800 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 7250 1800 7250
+Wire Wire Line
+	1800 7250 1800 7500
+Wire Wire Line
+	1150 5600 1400 5600
+Wire Wire Line
+	1400 5600 1400 6750
+Wire Wire Line
+	1400 6750 2550 6750
+Wire Wire Line
+	2550 6750 2550 7100
+Wire Wire Line
+	1150 5800 1350 5800
+Wire Wire Line
+	1350 5800 1350 6800
+Wire Wire Line
+	1350 6800 2250 6800
+Wire Wire Line
+	2250 6800 2250 7100
+Text Notes 5200 3500 2    39   ~ 0
+Transverter 144->240 MHz
+Text Notes 7150 3500 2    39   ~ 0
+Transverter 240 -> 432 MHz\n
+Text Notes 5150 4500 2    39   ~ 0
+Converter 432->144 MHz
+Text Notes 8750 3500 2    39   ~ 0
+Power amplifier 432 MHz
+$EndSCHEMATC
